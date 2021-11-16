@@ -1,7 +1,7 @@
 {
-  "name": "ngsa",
-  "namespace": "ngsa",
+  "name": "autogitops-name",
+  "namespace": "autogitops-namespace",
   "imageName": "ghcr.io/retaildevcrews/ngsa-app",
   "imageTag": "beta",
-  "targets": ["dev-target", "test"]
+  "targets": ["dev-target"]
 }
