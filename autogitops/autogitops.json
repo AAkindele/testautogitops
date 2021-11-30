@@ -1,3 +1,4 @@
 {
-  "targets": ["democluster"]
+  "name": "the-app",
+  "namespace": "app-team-namespace"
 }
