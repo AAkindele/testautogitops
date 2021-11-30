@@ -19,8 +19,8 @@ spec:
     metadata:
       labels:
         app: ngsa-memory
-        version: beta-1130-2110
-        deploy: 21-11-30-21-10-19
+        version: beta-1130-2111
+        deploy: 21-11-30-21-11-12
         test: test1
     spec:
       containers:
@@ -31,7 +31,7 @@ spec:
           - --in-memory
           - --prometheus
           - --zone
-          - centralus
+          - eastus
           - --region
           - dev
           ports:
