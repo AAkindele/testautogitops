@@ -1,5 +1,5 @@
 {
   "name": "ngsa",
-  "namespace": "ngsa",
+  "namespace": "app-team-namespace",
   "targets": ["democluster"]
 }
