@@ -1,5 +1,5 @@
 {
-  "name": "the-app",
-  "namespace": "app-team-namespace",
-  "targets": ["democluster","prodcluster"]
+  "name": "myapp",
+  "namespace": "ns-appteam",
+  "targets": ["cluster123"]
 }
