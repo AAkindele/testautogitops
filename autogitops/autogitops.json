@@ -1,5 +1,4 @@
 {
-  "name": "myapp",
   "namespace": "ns-appteam",
   "targets": ["cluster123"]
 }
