@@ -6,7 +6,7 @@ metadata:
     name: myapp
 spec:
   containers:
-  - name: myapp2
+  - name: myapp
     image: hello-world:latest
     resources:
       limits:
