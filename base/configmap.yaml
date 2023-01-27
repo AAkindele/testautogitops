@@ -7,7 +7,7 @@ data:
   config.json:  |-
         {
           "hello": "${REPLACE_ME}",
-          "test1": $KEEP_ME_1,
-          "test2": $${KEEP_ME_2},
-          "test3": ${MISSING_VAR}
+          "test1": "$KEEP_ME_1",
+          "test2": "$${KEEP_ME_2}",
+          "test3": "${MISSING_VAR}"
         }
