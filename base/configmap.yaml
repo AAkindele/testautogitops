@@ -6,8 +6,8 @@ metadata:
 data:
   config.json:  |-
         {
-          "hello_1": "$REPLACE_ME",
-          "hello_2": "$$REPLACE_ME",
-          "hello_3": "${REPLACE_ME}",
-          "hello_4": "$${REPLACE_ME}",
+          "hello": "${REPLACE_ME}",
+          "test1": $KEEP_ME_1,
+          "test2": $${KEEP_ME_2},
+          "test3": ${MISSING_VAR}
         }
