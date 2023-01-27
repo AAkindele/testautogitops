@@ -10,3 +10,6 @@ spec:
     kind: GitRepository
     name: testflux
     namespace: flux-system
+  postBuild:
+    substitute:
+      REPLACE_ME: "world"
