@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myConfigMap
+data:
+  config.json:  |-
+        {
+          "hello_A": "$REPLACE_ME",
+          "hello_B": "$$REPLACE_ME",
+          "hello_C": "${REPLACE_ME}",
+          "hello_D": "$${REPLACE_ME}",
+        }
